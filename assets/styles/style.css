@@ -5,6 +5,7 @@
     --blur-color:#52c74aa4;
     --btn-color:#1eac1e;
     --checkbox-color:#3ccd32;
+    --btn-hover-color:#14a114;
 }  
 
 *,
@@ -107,6 +108,9 @@ font-size: 14px;
     cursor: pointer;
     transition: 0.3ms;
     margin-bottom: 15px;
+  }
+  .login__button:hover{
+    background-color: var(--btn-hover-color);
   }
   .login__container-btn-text{
     font-size: 15px;
